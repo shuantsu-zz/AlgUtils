@@ -67,3 +67,8 @@ if __name__ == '__main__':
     au1.generate_scramble_alg(25)
     print("Scramble:", au1.alg)
     print("Inverse:", au1.reversed)
+    
+    au2 = AlgUtils()
+    au2.apply_alg("R U R' U R U2 R'")
+    print("Scramble:", au2.alg)
+    print("Inverse:", au2.reversed)
